@@ -1,0 +1,78 @@
+8
+
+dir
+2
+https://rhc.googlecode.com/svn/trunk/rails_hotcommands
+https://rhc.googlecode.com/svn
+
+
+
+2007-07-09T01:28:25.791520Z
+2
+comechao
+
+
+svn:special svn:externals svn:needs-lock
+
+terminal.py
+file
+
+
+
+
+2007-07-08T14:55:26.000000Z
+582b5e9c814babb053258f17ceea5455
+2007-07-09T01:28:25.791520Z
+2
+comechao
+
+commandrunner.glade
+file
+
+
+
+
+2007-07-08T15:03:17.000000Z
+86fb253bd2ee024917f7afb46b6a8545
+2007-07-09T01:28:25.791520Z
+2
+comechao
+
+terminal.pyc
+file
+
+
+
+
+2007-07-08T14:58:02.000000Z
+456580c16eeb1540dbc7d82d996072cc
+2007-07-09T01:28:25.791520Z
+2
+comechao
+has-props
+
+__init__.py
+file
+
+
+
+
+2007-07-08T14:55:40.000000Z
+0de21c28c67f3254cb7c3930eaeb6343
+2007-07-09T01:28:25.791520Z
+2
+comechao
+
+__init__.pyc
+file
+
+
+
+
+2007-07-08T14:58:02.000000Z
+b9c8c4498d3e33aab54c4b965dce4924
+2007-07-09T01:28:25.791520Z
+2
+comechao
+has-props
+

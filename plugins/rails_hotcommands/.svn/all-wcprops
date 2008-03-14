@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/rails_hotcommands
+END
+terminal.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/rails_hotcommands/terminal.py
+END
+commandrunner.glade
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/rails_hotcommands/commandrunner.glade
+END
+terminal.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/rails_hotcommands/terminal.pyc
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/rails_hotcommands/__init__.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/rails_hotcommands/__init__.pyc
+END
