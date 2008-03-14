@@ -325,7 +325,7 @@
     <context id="regexp-variables" style-ref="decimal">
       <match>\$[1-9][0-9]*</match>
     </context>
-    <context id="rhtml">
+    <context id="erb">
       <include>
         <context ref="block-comment"/>
         <context ref="double-quoted-string"/>

@@ -3,7 +3,7 @@
 	<mime-type type="text/erb">
 		<sub-class-of type="text/html"/>
 		<comment>Rails ERB Template</comment>
-		<glob pattern="*.rhtml"/>
 		<glob pattern="*.erb" />
+		<glob pattern="*.rhtml"/>
 	</mime-type>
 </mime-info>
