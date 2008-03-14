@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="ruby">
+  <snippet id="hashpointer">
+    <text><![CDATA[ => ]]></text>
+    <accelerator><![CDATA[<Ctrl>l]]></accelerator>
+    <description>hash pointer</description>
+    <drop-targets>text/erb, application/x-ruby</drop-targets>
+  </snippet>
+</snippets>
