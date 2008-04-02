@@ -1,10 +1,28 @@
 #!/bin/sh
 
 killall gedit
+
+# Register rails-related mime types
 sudo cp rails.xml /usr/share/mime/packages
 sudo update-mime-database /usr/share/mime
-sudo cp erb.lang /usr/share/gtksourceview-2.0/language-specs/
-mkdir -p ~/.gnome2/gedit
+
+# Install syntaxt definitions for erb and yaml
+sudo cp {erb,yaml}.lang /usr/share/gtksourceview-2.0/language-specs/
+
+if [ ! -d $HOME/.gnome2/gedit ]
+then
+  mkdir -p ~/.gnome2/gedit
+fi
 cp snippets ~/.gnome2/gedit/
-mkdir -p ~/.gnome2/gedit/snippets
+
+if [ ! -d $HOME/.gnome2/gedit/snippets ]
+then
+  mkdir -p ~/.gnome2/gedit/snippets
+fi
 cp snippets/* ~/.gnome2/gedit/snippets/
+
+if [ ! -d $HOME/.gnome2/gedit/plugins ]
+then
+  mkdir -p ~/.gnome2/gedit/plugins
+fi
+cp -R plugins/* ~/.gnome2/gedit/plugins

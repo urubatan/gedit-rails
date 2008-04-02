@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language _name="YAML" version="1.0" _section="Others" mimetypes="text/x-yaml">
+
+  <escape-char>\</escape-char>
+
+  <string _name="String" style="String" end-at-line-end="FALSE">
+    <start-regex>"</start-regex>
+    <end-regex>"</end-regex>
+  </string>
+
+  <string _name="Constant String" style="String" end-at-line-end="FALSE">
+    <start-regex>'</start-regex>
+    <end-regex>'</end-regex>
+  </string>
+
+  <line-comment _name="Line Comment" style="Comment">
+    <start-regex>#</start-regex>
+  </line-comment>
+
+  <pattern-item _name="Scalar Value" style="Scalar Value">
+    <regex>\w*</regex>
+  </pattern-item>
+
+  <pattern-item _name="List Item Value" style="List Item Value">
+    <regex>^\- .*</regex>
+  </pattern-item>
+
+  <pattern-item _name="Key" style="Key">
+    <regex>^[\w_]*:</regex>
+  </pattern-item>
+
+  <pattern-item _name="Inner Key" style="Inner Key">
+    <regex>\W[\w_]*:</regex>
+  </pattern-item>
+</language>

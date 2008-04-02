@@ -2,8 +2,21 @@
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
 	<mime-type type="text/erb">
 		<sub-class-of type="text/html"/>
-		<comment>Rails ERB Template</comment>
+		<comment>ERB Template</comment>
 		<glob pattern="*.erb" />
 		<glob pattern="*.rhtml"/>
 	</mime-type>
+	<mime-type type="application/x-ruby">
+    <alias type="application/ruby" />
+    <comment xml:lang="en">Ruby Rake Tasks</comment>
+    <glob pattern="*.rake"/>
+  </mime-type>
+  <mime-type type="application/x-ruby">
+    <comment xml:lang="en">Rakefile</comment>
+    <glob pattern="Rakefile"/>
+  </mime-type>
+  <mime-type type="text/x-yaml">
+    <comment xml:lang="en">YAML</comment>
+    <glob pattern="*.yml"/>
+  </mime-type>
 </mime-info>
