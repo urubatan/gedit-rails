@@ -7,7 +7,8 @@ sudo cp rails.xml /usr/share/mime/packages
 sudo update-mime-database /usr/share/mime
 
 # Install syntaxt definitions for erb and yaml
-sudo cp {erb,yaml}.lang /usr/share/gtksourceview-2.0/language-specs/
+sudo cp erb.lang /usr/share/gtksourceview-2.0/language-specs/
+sudo cp yaml.lang /usr/share/gtksourceview-2.0/language-specs/
 
 if [ ! -d $HOME/.gnome2/gedit ]
 then
