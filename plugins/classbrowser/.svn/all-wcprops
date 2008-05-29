@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/19/trunk/classbrowser
+END
+options.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/15/trunk/classbrowser/options.py
+END
+parser_ctags.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/classbrowser/parser_ctags.py
+END
+parser_python.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19/trunk/classbrowser/parser_python.py
+END
+parserinterface.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/17/trunk/classbrowser/parserinterface.py
+END
+tabwatch.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/11/trunk/classbrowser/tabwatch.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/19/trunk/classbrowser/__init__.py
+END
+browserwidget.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/18/trunk/classbrowser/browserwidget.py
+END
+imagelibrary.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/14/trunk/classbrowser/imagelibrary.py
+END
