@@ -27,3 +27,9 @@ then
   mkdir -p ~/.gnome2/gedit/plugins
 fi
 cp -R plugins/* ~/.gnome2/gedit/plugins
+
+if [ ! -d $HOME/.gnome2/gedit/styles ]
+then
+  mkdir -p ~/.gnome2/gedit/styles
+fi
+cp -R styles/* ~/.gnome2/gedit/styles

@@ -1,0 +1,92 @@
+<style-scheme id="dazzl" _name="Dazzl" version="1.0">
+  <author>DAZ</author>
+  <_description>Dazzl Colour scheme</_description>
+
+<!--
+        Colors from the Railscasts palette.
+-->
+
+  <color name="babygreen"                   value="#cbf8b0"/>
+  <color name="violet"                  value="#d0cffe"/>
+  <color name="babypink"                value="#ffc0cb"/>
+  <color name="babyblue"                value="#9cbddd"/>
+ 
+  <color name="black"                   value="#000000"/>
+  <color name="asfalto"                 value="#15171c"/>
+  <color name="carbon"                  value="#222429"/>
+  <color name="slate"                   value="#506681"/>
+  <color name="grey"                    value="#666666"/>
+  <color name="white"                   value="#eeeeee"/>
+
+<!--
+        GUI styles
+-->
+  <style name="text"                        foreground="white" background="carbon"/>
+  <style name="selection"                   background="slate"/>
+  <style name="selection-unfocused"         foreground="white" background="grey"/>
+  <style name="cursor"                      foreground="white"/>
+  <style name="secondary-cursor"            foreground="babypink"/>
+  <style name="current-line"                background="asfalto"/>
+  <style name="line-numbers"                foreground="grey" background="black"/>
+  <style name="bracket-match"               foreground="white" background="black" bold="true"/>
+  <style name="bracket-mismatch"            foreground="white" background="black" bold="true"/>
+  <style name="search-match"                foreground="black" background="white"/>
+
+<!--
+        Default styles
+-->
+  <style name="def:keyword"                 foreground="babypink" bold="true"/>
+  <style name="def:statement"               foreground="violet"/>
+  <style name="def:function"                foreground="violet"/>
+  <style name="def:preprocessor"            foreground="babypink"/>
+  <style name="def:type"                    foreground="green"/>
+ 
+  <style name="def:character"               foreground="babypink"/>
+
+  <style name="def:comment"                 foreground="grey" italic="true"/>
+  <style name="def:number"                  foreground="babyblue" bold="true"/>
+  <style name="def:string"                  foreground="babyblue"/>
+  <style name="def:net-address-in-comment"  foreground="violet" italic="true" underline="true"/>
+  <style name="def:note"                    foreground="white" background="black" bold="true"/>
+  <style name="def:error"                   background="red" bold="true"/>
+  <style name="def:escape"                  foreground="babypink"/>
+  <style name="def:shebang"                 foreground="babyblue" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+  <style name="def:identifier"              foreground="babyblue" bold="true"/>
+
+  <style name="def:specials"                foreground="white" background="magenta"/>
+ 
+  <style name="def:variable"                foreground="babyblue"/>
+  <style name="def:boolean"                 foreground="babyblue" bold="true"/>
+  <style name="def:constant"                foreground="white"/>
+  <style name="def:special-constant"        foreground="babypink" bold="true"/>
+
+   
+<!--
+        Language specific styles
+-->
+<!--  <style name="ruby:keyword"                foreground="ambra" bold="true"/> -->
+  <style name="ruby:comment"                foreground="grey"/>
+  <style name="ruby:attribute-definition"   foreground="babypink" bold="true"/>
+  <style name="ruby:module-handler"         foreground="white" bold="true"/>
+  <style name="ruby:builtin"                foreground="violet" bold="true"/>
+  <style name="ruby:special-variable"       foreground="babyblue"/>
+  <style name="ruby:predefined-variable"    foreground="babygreen" bold="true"/>
+
+  <style name="ruby:symbol"                 foreground="babygreen" bold="false"/>
+  <style name="ruby:regex"                  foreground="babygreen" bold="true"/>
+  <style name="ruby:constant"               foreground="babypink"/>
+  <style name="ruby:variable"               foreground="babyblue"/>
+ 
+  <style name="rhtml:erb-block"               foreground="babypink" bold="false"/>
+ 
+<!--  <style name="ruby:nil-value"              foreground="fuchsia" bold="true"/> -->
+<!--  <style name="ruby:boolean"                foreground="fuchsia" bold="true"/> -->
+
+  <style name="diff:added-line"             foreground="babygreen"/>
+  <style name="diff:removed-line"           foreground="babypink"/>
+  <style name="diff:changed-line"           foreground="babypink"/>
+  <style name="diff:special-case"           use-style="def:string"/>
+  <style name="diff:location"               use-style="def:keyword"/>
+
+</style-scheme>
