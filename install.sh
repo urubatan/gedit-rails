@@ -1,6 +1,7 @@
 #!/bin/sh
 
-killall gedit
+# Do we really need to kill Gedit to enable the plugins?
+# killall gedit
 
 # Register rails-related mime types
 sudo cp rails.xml /usr/share/mime/packages
@@ -36,3 +37,7 @@ cp -R styles/* ~/.gnome2/gedit/styles
 
 # set Darkmate as default Gedit Theme, It supports Rails specific syntax
 gconftool-2 --set /apps/gedit-2/preferences/editor/colors/scheme  -t string darkmate
+
+# set default plugins
+gconftool-2 --set /apps/gedit-2/plugins/active-plugins  -t list --list-type string [line_tools,classbrowser,auto_completion,snapopen,sessionsaver,codecomment,indent,filebrowser,snippets]
+
