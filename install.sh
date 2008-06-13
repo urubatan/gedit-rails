@@ -33,3 +33,6 @@ then
   mkdir -p ~/.gnome2/gedit/styles
 fi
 cp -R styles/* ~/.gnome2/gedit/styles
+
+# set Darkmate as default Gedit Theme, It supports Rails specific syntax
+gconftool-2 --set /apps/gedit-2/preferences/editor/colors/scheme  -t string darkmate
