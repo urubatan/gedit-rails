@@ -14,7 +14,7 @@ if [ ! -d $HOME/.gnome2/gedit ]
 then
   mkdir -p ~/.gnome2/gedit
 fi
-cp snippets ~/.gnome2/gedit/
+cp -r snippets ~/.gnome2/gedit/
 
 if [ ! -d $HOME/.gnome2/gedit/snippets ]
 then
