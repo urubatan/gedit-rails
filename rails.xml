@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
-	<mime-type type="text/erb">
-		<sub-class-of type="text/html"/>
-		<comment>ERB Template</comment>
-		<glob pattern="*.erb" />
-		<glob pattern="*.rhtml"/>
-	</mime-type>
-	<mime-type type="application/x-ruby">
+  <mime-type type="text/erb">
+    <sub-class-of type="text/html"/>
+    <comment>ERB Template</comment>
+    <glob pattern="*.erb" />
+    <glob pattern="*.rhtml"/>
+  </mime-type>
+  <mime-type type="application/x-ruby">
     <alias type="application/ruby" />
     <comment xml:lang="en">Ruby Rake Tasks</comment>
     <glob pattern="*.rake"/>
