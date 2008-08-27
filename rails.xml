@@ -21,5 +21,6 @@
   <mime-type type="text/x-yaml">
     <comment xml:lang="en">YAML</comment>
     <glob pattern="*.yml"/>
+    <glob pattern="*.yaml"/>
   </mime-type>
 </mime-info>
