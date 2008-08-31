@@ -1,4 +1,5 @@
 #!/bin/sh
+set -v
 
 killall gedit
 
@@ -26,4 +27,4 @@ if [ ! -d $HOME/.gnome2/gedit/plugins ]
 then
   mkdir -p ~/.gnome2/gedit/plugins
 fi
-cp -R plugins/* ~/.gnome2/gedit/plugins
+cp -R plugins/* ~/.gnome2/gedit/plugins/
