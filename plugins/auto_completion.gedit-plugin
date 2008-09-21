@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Loader=python
+Module=auto_completion
+IAge=2
+Name=Auto Completion Plugin
+Description=Auto completion like it is done in any 'better' console
+Authors=Elias Holzer <holzer@inf.fu-berlin.de>
+Copyright=Copyright © 2006 Elias Holzer
+Website=http://elias.hiex.at/gedit-plugins

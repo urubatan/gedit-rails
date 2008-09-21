@@ -1,0 +1,9 @@
+[Gedit Plugin]
+Loader=python
+Module=line_tools
+IAge=2
+Name=Line Tools
+Description=Advanced line editing functions such as line duplication.
+Authors=Shaddy Zeineddine <shaddyz@users.sourceforge.net>, Marcus Lunzenauer <mlunzena@uos.de> 
+Copyright=Copyright @ 2007 Shaddy Zeineddine, Marcus Lunzenauer
+Website=http://live.gnome.org/Gedit/LineToolsPlugin

@@ -18,6 +18,15 @@
     <comment xml:lang="en">Rakefile</comment>
     <glob pattern="Rakefile"/>
   </mime-type>
+  <mime-type type="application/x-ruby">
+    <comment>Ruby JavaScript</comment>
+    <glob pattern="*.rjs"/>
+  </mime-type>
+  <mime-type type="application/x-ruby">
+    <comment>Ruby XML Template</comment>
+    <glob pattern="*.rxml"/>
+    <glob pattern="*.builder"/>
+  </mime-type>
   <mime-type type="text/x-yaml">
     <comment xml:lang="en">YAML</comment>
     <glob pattern="*.yml"/>

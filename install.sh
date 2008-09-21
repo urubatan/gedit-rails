@@ -27,3 +27,16 @@ then
   mkdir -p ~/.gnome2/gedit/plugins
 fi
 cp -R plugins/* ~/.gnome2/gedit/plugins
+
+if [ ! -d $HOME/.gnome2/gedit/styles ]
+then
+  mkdir -p ~/.gnome2/gedit/styles
+fi
+cp -R styles/* ~/.gnome2/gedit/styles
+
+# set Darkmate as default Gedit Theme, It supports Rails specific syntax
+gconftool-2 --set /apps/gedit-2/preferences/editor/colors/scheme  -t string darkmate
+
+# set default plugins
+gconftool-2 --set /apps/gedit-2/plugins/active-plugins  -t list --list-type string [line_tools,classbrowser,auto_completion,snapopen,sessionsaver,codecomment,indent,filebrowser,snippets,externaltools]
+
