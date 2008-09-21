@@ -8,4 +8,4 @@ One other thing I would suggest, you can get emacs like navigation keys by setti
 
 If you have a particular plugin, snippet, or any other configuration tweak, you find helpful in transforming gedit into a ruby development environment, please fork this repository and contribute.
 
-Further, if you like pretty colors, check out my other gedit repo, gedit-themes!
+Further, if you like pretty colors, check out my other gedit repo, http://github.com/mig/gedit-themes
