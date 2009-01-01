@@ -19,13 +19,12 @@
     <glob pattern="Rakefile"/>
   </mime-type>
   <mime-type type="application/x-ruby">
-    <comment>Ruby JavaScript</comment>
-    <glob pattern="*.rjs"/>
-  </mime-type>
-  <mime-type type="application/x-ruby">
-    <comment>Ruby XML Template</comment>
-    <glob pattern="*.rxml"/>
-    <glob pattern="*.builder"/>
+    <comment xml:lang="en">Ruby script</comment>
+    <!-- Some Ruby on Rails source files are incorrectly recognized as VHDL,
+         so we override that. -->
+    <magic priority="21">
+      <match value="#--\n# " type="string" offset="0:10"/>
+    </magic>
   </mime-type>
   <mime-type type="text/x-yaml">
     <comment xml:lang="en">YAML</comment>
